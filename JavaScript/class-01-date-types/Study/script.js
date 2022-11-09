@@ -7,3 +7,5 @@ let secundNumber = Number(prompt(`digite outro number `))
 soma = firstNumber + secundNumber
 
 alert(`o valor eh ${soma}`)
+
+
