@@ -11,8 +11,8 @@
 
 body{
     font-size: 1.6rem;
-    height: 100%;
-   /* color: white;*/
+    height: 100vh;
+    color: white;
     background-image: url(premium_photo-1661265933107-85a5dbd815af.avif);
     background-position: center;
     background-size: cover;
@@ -100,18 +100,26 @@ aside p{
 
 }
 .modal{
-    height: 20.0rem;
-    width: 24.0rem;
+    height: 15.0rem;
+    width: 32.0rem;
     margin: 0;
+    color: black;
     padding: 3.2rem;
     border-radius: 0.8rem;
     box-shadow: .1rem .1rem .4rem rgba(218, 237, 226, 0.912);
     position: relative;
-    background: white;
+    background: rgba(232, 229, 229, 0.81);
+    font-size: 32rem
+    
 
 
 }
-
+.modal p{
+    color: black;
+    font-size: 3.2rem;
+    text-align: center;
+    font-weight: bold;
+}
 .closeButton{
     position: absolute;
     top: 1rem;
